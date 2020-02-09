@@ -1,0 +1,14 @@
+[2020-02-09 12:02:58.034] [sharedprocess] [info] main {"machineId":"ced96714e9c6104d58e078ad4ce010800230aaa88657d28e4783a76833b3a073","windowId":2}
+[2020-02-09 12:03:00.560] [sharedprocess] [info] Installing extension: dart-code.dart-code
+[2020-02-09 12:03:01.748] [sharedprocess] [info] Downloaded extension: dart-code.dart-code /tmp/0dff614e-a0de-48bd-90e4-8506bb0ad935
+[2020-02-09 12:03:02.948] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.dart-code.dart-code-3.8.1: dart-code.dart-code
+[2020-02-09 12:03:02.949] [sharedprocess] [info] Renamed to /root/.vscode/extensions/dart-code.dart-code-3.8.1
+[2020-02-09 12:03:02.952] [sharedprocess] [info] Installation completed. dart-code.dart-code
+[2020-02-09 12:03:02.994] [sharedprocess] [info] Extensions installed successfully: dart-code.dart-code
+[2020-02-09 12:03:28.432] [sharedprocess] [info] Installing extension: ms-python.python
+[2020-02-09 12:03:38.030] [sharedprocess] [info] Starting to clean up unused language packs.
+[2020-02-09 12:04:59.028] [sharedprocess] [info] Downloaded extension: ms-python.python /tmp/87fa7c17-ab89-422c-b62f-63b9dd4da503
+[2020-02-09 12:05:01.609] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.ms-python.python-2020.1.58038: ms-python.python
+[2020-02-09 12:05:01.610] [sharedprocess] [info] Renamed to /root/.vscode/extensions/ms-python.python-2020.1.58038
+[2020-02-09 12:05:01.614] [sharedprocess] [info] Installation completed. ms-python.python
+[2020-02-09 12:05:01.629] [sharedprocess] [info] Extensions installed successfully: ms-python.python

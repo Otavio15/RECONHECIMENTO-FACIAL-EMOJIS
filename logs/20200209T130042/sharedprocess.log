@@ -1,0 +1,9 @@
+[2020-02-09 12:00:45.936] [sharedprocess] [info] main {"machineId":"ced96714e9c6104d58e078ad4ce010800230aaa88657d28e4783a76833b3a073","windowId":2}
+[2020-02-09 12:00:48.749] [sharedprocess] [info] Installing extension: dart-code.dart-code
+[2020-02-09 12:00:48.751] [sharedprocess] [info] Installing extension: dart-code.flutter
+[2020-02-09 12:00:52.002] [sharedprocess] [info] Downloaded extension: dart-code.flutter /tmp/1ad0883a-079b-465d-9095-ac727abb8c30
+[2020-02-09 12:00:52.025] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.dart-code.flutter-3.8.1: dart-code.flutter
+[2020-02-09 12:00:52.025] [sharedprocess] [info] Renamed to /root/.vscode/extensions/dart-code.flutter-3.8.1
+[2020-02-09 12:00:52.026] [sharedprocess] [info] Installation completed. dart-code.flutter
+[2020-02-09 12:00:52.055] [sharedprocess] [info] Extensions installed successfully: dart-code.flutter
+[2020-02-09 12:00:53.769] [sharedprocess] [info] Downloaded extension: dart-code.dart-code /tmp/eade1c4c-a6e7-47e0-bfc7-8bb078e5d329

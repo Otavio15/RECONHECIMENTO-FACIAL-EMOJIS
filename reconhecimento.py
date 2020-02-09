@@ -1,3 +1,4 @@
+
 import cv2 #importa a bibilioteca opencv
 from random import randint #importa a bibilioteca para gerar números randômicos
 
@@ -24,10 +25,10 @@ cv2.namedWindow(winName, cv2.WINDOW_NORMAL)
 cv2.setWindowProperty(winName, cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_FULLSCREEN)
 
 #importa a webcamq
-video = cv2.VideoCapture(2)
+video = cv2.VideoCapture(0)
 
 #faz a webcam funcionar a 30fps
-#video.set(cv2.CAP_PROP_FPS, 30)
+video.set(cv2.CAP_PROP_FPS, 30)
 
 #chama o classificador para deteção de faces
 classificador = cv2.CascadeClassifier('cascades/haarcascade_frontalface_default.xml')
@@ -72,7 +73,7 @@ while True:
         # reigão da área total onde se encontra a face
         regiao = img_capturada[y: y + a, x: x + l]
         # funcao resize permite importar uma nova imagem dento da mesma janela
-        resized = cv2.resize(imagem, dim, interpolation=cv2.INTER_AREA)
+        resized = cv2.resize(imagem, (1024,1024), interpolation=cv2.INTER_AREA)
 
         # chamada da função para deixar a imagem trasparente
         transparentOverlay(regiao, resized)
