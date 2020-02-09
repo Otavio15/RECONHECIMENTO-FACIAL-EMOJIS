@@ -10,7 +10,7 @@
 
 - Através da biblioteca **OpenCV** foi possível capturar a imagem da WebCam do computador e realizar o reconhecimento facial. Dependendo da distância da pessoa as faces podem assumir tamanhos diferentes das do emoji, por isso foi necessário redimencionar o tamanho dos emojis. 
 
-- Divido a todas as imagens estarem no formato PNG capa pixels obtem a variável *alpha* referente a quantidade de transparência, e para deixar a imagem do emoji transparente foi necessário percorrer toda a matriz bidimencional e aplicar o valor respectivo do píxel da WebCam.
+- Divido a todas as imagens estarem no formato PNG cada pixels obtem a variável *alpha* referente a quantidade de transparência, e para deixar a imagem do emoji transparente foi necessário percorrer toda a matriz bidimencional e aplicar o valor respectivo do píxel da WebCam.
 
 - O método *cv2.rectangle* permitiu capturar apenas a imagem facial obtida através do arquivo **haarcascade**.
 
